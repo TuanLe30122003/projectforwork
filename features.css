@@ -38,18 +38,17 @@ a {
 }
 
 .icon {
-    transform: translateY(5px);
+    transform: translateY(-2px);
 }
 
 .column {
-    width: 360px;
+    width: 25%;
 }
 
 .article-card {
     padding: 0 20px;
     margin-bottom: 40px;
-    /* width: 100%; */
-    width: 360px;
+    width: 100%;
     /* animation: floatUp 1s 1; */
     color: #000;
 }

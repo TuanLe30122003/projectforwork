@@ -1,0 +1,32 @@
+@media screen and (max-width: 739px){
+    .navigation {
+        display: none;
+    }
+    .social-media-contact {
+        display: none
+    }
+    .brand div {
+        /* width: 50% */
+    }
+    .search-button span{
+        display: none
+    }
+    .column {
+        width: 100%
+    }
+
+    .menu {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    }
+
+    .brand-name-cover h1 {
+        font-size: 30px;
+    }
+
+    .cover2 {
+        flex-direction: column;
+    }
+    ;
+}

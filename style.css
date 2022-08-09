@@ -3,6 +3,8 @@
 .cover1 {
     /* background: url('background.jpg'); */
     background: #19191b;
+    width: 100%;
+    padding-top: 20px;
 }
 
 .brand {
@@ -30,13 +32,17 @@
 }
 
 .search-button {
-    display: flex;
-    position: relative;
+    
 }
 
 .search-button div {
-    width: 80%;
+    width: 100%;
     text-align: right;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 10px;
 }
 
 .social-media-contact {
@@ -44,6 +50,10 @@
     gap: 10px;
     /* justify-content: center; */
     align-items: center;
+}
+
+.menu {
+    display: none;
 }
 
 /* navigation */
@@ -120,9 +130,11 @@
 .cover2 {
     display: flex;
     flex-direction: row;
-    padding: 70px 0;
+    padding: 70px 8rem;
     background-color: #f2f2f2;
     justify-content: center;
+    width: 100%;
+
 }
 
 .quote {
@@ -146,4 +158,8 @@
 .quote p {
     text-align: center;
     padding-top: 60px;
+}
+
+.quote-content {
+    text-align: center;
 }
