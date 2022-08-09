@@ -1,0 +1,8 @@
+Things need to be done to build this web:
+-	Perform the web site
+-	Use keyframe to create the animation 
+-	Use the match color
+-	Take some pictures
+
+
+use data-aos for animation in each card (fade-up)

@@ -1,0 +1,8 @@
+.icon {
+    cursor: pointer;
+}
+
+.navigation > ul > li:hover {
+    cursor: pointer;
+}
+
