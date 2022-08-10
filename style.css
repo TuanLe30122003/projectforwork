@@ -130,7 +130,7 @@
 .cover2 {
     display: flex;
     flex-direction: row;
-    padding: 70px 8rem;
+    padding: 70px 0;
     background-color: #f2f2f2;
     justify-content: center;
     width: 100%;
