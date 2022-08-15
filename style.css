@@ -130,11 +130,13 @@
 .cover2 {
     display: flex;
     flex-direction: row;
-    padding: 70px 0;
-    background-color: #f2f2f2;
+    padding-top: 70px;
     justify-content: center;
     width: 100%;
+}
 
+.cover3 {
+    background-color: #f2f2f2;
 }
 
 .quote {
@@ -162,4 +164,64 @@
 
 .quote-content {
     text-align: center;
+}
+
+.pic {
+    overflow: hidden;
+    position: relative;
+    display: block;
+    /* height: fit-content; */
+}
+
+.pic > img {
+    width: 100%;
+    display: block;
+}
+
+/* page number */
+
+.page-number {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 70px;
+}
+
+.page-number div {
+    text-align: center;
+    min-height: 50px;
+}
+
+.next-pre {
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    box-shadow: 0 4px 5px rgb(0 0 0 / 15%); 
+}
+
+.number {
+    width: 40px;
+    height: 50px;
+    border-radius: 3px;
+    /* color: #000; */
+    font-weight: 700;
+    color: #000;
+}
+
+.choosen {
+    background-color: #000;
+    color: #fff;
+}
+
+.next-pre > ion-icon {
+    color: #000;
+    transform: translateY(5px);
+}
+
+.quote-pic {
+    
 }
